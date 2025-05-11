@@ -12,7 +12,6 @@ const PostSchema = new Schema({
   course: {
     type: String,
     required: [true, 'El curso asociado es obligatorio']
-    // Si lo deseas, podrías usar enum: ['Curso1','Curso2','Curso3']
   },
   createdAt: {
     type: Date,
